@@ -1,0 +1,5 @@
+# Allow access to folder and sub-directories, but prevent
+# directory listings
+
+Allow from all
+Options -Indexes

@@ -496,12 +496,16 @@ input[type="submit"]::-moz-focus-inner {
 /* =Misc (Widgets go here)
 -----------------------------------------------------------------------------*/
 
-span#google-button {
-    margin-top: 54px;
+.social {
+    margin-top: 50px;
+    font-size: 1px;
     float: right;
 }
-
-span#facebook-button {
-    margin-top: 52px;
-    float: right;
+ 
+.social span {
+    display: inline-block;
+}
+ 
+.social>div{
+    width: 70px !important;
 }

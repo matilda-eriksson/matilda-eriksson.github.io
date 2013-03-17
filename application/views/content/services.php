@@ -36,13 +36,23 @@
 
         </ul>
 
-        <span id="google-button">
-            <g:plusone size="small"></g:plusone>
-        </span>
+        <div class="social">
 
-        <span id="facebook-button">
-            <fb:like href="http://www.matildaeriksson.com/" send="false" layout="button_count" width="50" show_faces="false" action="recommend" font="">
-        </span>      
+            <!--<span class="google">
+                <g:plusone size="medium" href="http://www.matildaeriksson.com"></g:plusone>
+            </span>-->
+
+            <span class="g-plusone" data-size="medium" data-href="http://www.matildaeriksson.com"></span>
+
+            <span class="facebook">
+                <fb:like href="http://www.matildaeriksson.com/" send="false" layout="button_count" width="50" show_faces="false" action="recommend" font="">
+            </span>
+
+        </div>
+
+        <!--<span class="google" data-size="small" data-href="http://www.matildaeriksson.com"></span>-->
+
+           
 
     </div>
 

@@ -1,3 +1,6 @@
+### Deny Access to Hidden Files
+RedirectMatch 403 /\..*$
+
 ### BEGIN url
 
 <IfModule mod_rewrite.c>
@@ -24,20 +27,17 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php?/$1 [L]
+
 </IfModule>
 
 <IfModule !mod_rewrite.c>
     # If we don't have mod_rewrite installed, all 404's
     # can be sent to index.php, and everything works as normal.
     # Submitted by: ElliotHaughin
-
     ErrorDocument 404 /index.php
 </IfModule>
 
-### END url
-
-
-### BEGIN gzip
+# Begin gzip
 
 # Insert filter
 AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript application/javascript text/x-js
@@ -62,8 +62,8 @@ SetEnvIfNoCase Request_URI \
 
 # Don’t compress compressed files
 SetEnvIfNoCase Request_URI \
-  \.(?:exe|t?gz|zip|bz2|sit|rar)$ \
-  no-gzip dont-vary
+\.(?:exe|t?gz|zip|bz2|sit|rar)$ \
+no-gzip dont-vary
 
 # Don’t compress PDF
 SetEnvIfNoCase Request_URI \.pdf$ no-gzip dont-vary
@@ -73,19 +73,8 @@ Header append Vary User-Agent env=!dont-vary
 
 ### END gzip
 
-
 ### BEGIN etag
 
 FileETag none
 
 ### END etag
-
-
-### BEGIN expires header
-
-###<FilesMatch "\.(ico|flv|swf|pdf|jpg|jpeg|png|gif|js|css)$">
-    ###ExpiresActive On
-    ###ExpiresDefault "access plus 10 years"
-###</FilesMatch>
-
-### END expires header

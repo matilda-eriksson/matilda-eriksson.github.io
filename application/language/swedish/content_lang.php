@@ -44,7 +44,7 @@ $lang['contact_keywords'] = 'matilda, eriksson, translation, services, uk, freel
 
 $lang['home_page'] = 'Hem';
 $lang['services_page'] = 'Tjänster';
-$lang['clients_page'] = 'Min bakgrund och klienter';
+$lang['clients_page'] = 'Om mig';
 $lang['contact_page'] = 'Kontakta mig';
 
 // Misc

@@ -45,7 +45,7 @@ $lang['contact_keywords'] = 'matilda, eriksson, translation, services, uk, freel
 
 $lang['home_page'] = 'Home';
 $lang['services_page'] = 'Services';
-$lang['clients_page'] = 'Clients';
+$lang['clients_page'] = 'About Me';
 $lang['contact_page'] = 'Contact';
 
 // Misc
@@ -54,57 +54,34 @@ $lang['site_by'] = 'Design and Code';
 
 // Quotes
 
-$lang['quote1_body'] = 'Donec quis odio sit amet nulla luctus pharetra. Quisque ultrices 
+$lang['quote1_body'] = '&quot;Donec quis odio sit amet nulla luctus pharetra. Quisque ultrices 
                         gravida velit sed tincidunt. Fusce lorem justo, posuere a gravida 
-                        eget. Fusce lorem justo, posuere a gravida eget.';
-$lang['quote1_source'] = 'Some Person, Some Company';
+                        eget. Fusce lorem justo, posuere a gravida eget.&quot;';
+$lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, curator of the international art exhibition <em>Sharing Waters</em>, Stockholm/Istanbul';
 
 $lang['quote2_body'] = "&quot;Matilda translated the text quickly, with ease and to a high standard. She has demonstrated that she has an excellent command of Swedish and English, and she did a great job understanding and interpreting the presentation's message.&quot;";
 $lang['quote2_source'] = 'Margareta Fintling, Social Consultant, Swedish Public Employment Service';
 
-$lang['quote3_body'] = 'Etiam ac 
-                        nibh felis. Cum sociis natoque penatibus et magnis dis parturient montes, 
-                        nascetur ridiculus mus.Fusce lorem justo, posuere a gravida
-                        eget.';
-$lang['quote3_source'] = 'Some Person, Some Company';
+$lang['quote3_body'] = '&quot;Matilda delivered exceptional results on time and to budget. Her work was of the highest standard. We would certainly hire her again in the blink of an eye.&quot;';
+$lang['quote3_source'] = 'Simon Arnold, Greenfields Partnership, London';
 
 // Home page
 
-$lang['home_intro'] =      "Hello! I'm Matilda, a UK based translator, media analyst and proofreader.
-                            I specialise in Swedish-English and English-Swedish translations, copy-editing
-                            and proofreading. I deliver quality copy on time and to budget, and pride myself
-                            in always offering a friendly and reliable service. Please get in touch if you'd 
-                            like to discuss a project, or to obtain a free quote.";
+$lang['home_intro'] =      "Hello! Welcome to Matilda Eriksson Translation Services. I'm a translator and editing professional offering quality translation and editing services, specialising in Swedish-English and English-Swedish translations and proof-reading. Whether you need help with translation, editing or proof-reading I am here to make your text shine.";
 
 // Services page
 
 $lang['services_byline'] = 'High quality translations';
 $lang['services_intro'] = "<p>
-                            I specialise in translations from Swedish to English and from English to Swedish.
-                            I've worked on a wide variety of texts for a diverse range of clients, across a broad
-                            range of industries. As an accredited journalist myself I have a particularly keen
-                            interest in the media sector and have several years experience working on media and
-                            website translations.
+                            I can provide you with fast and accurate translations from Swedish to English and English to Swedish. I have worked on a wide variety of texts and feel confident translating technically demanding texts. I also assist clients with proof-editing of English and Swedish copy. My areas of specialisation include journalism, catalogues, technical documents and the arts.
                             </p> 
 
                             <p> 
-                            As well as translation I offer a range of analytical services, including copy-editing,
-                            proofreading and corporate media analysis, all available in both languages. Sometimes
-                            a client may request a combination of these services, so for example proofreading in
-                            Swedish followed by a translation to English. I am regularly analysing online media
-                            for internationally renowned brands, and so am highly familiar with technical and
-                            commercial translation too.
-                            </p> 
-
-                            <p> 
-                            Translators work in different ways. You can rest assured I will always strive keep my
-                            copy true to your original text, without compromising on style and fluency. You can
-                            expect first-class translations. Projects are delivered on time and to budget and my
-                            rates are competitive. All my clients can rely on absolute confidentiality.
+                            You can rest assured that I will always stay true to your original text, without compromising on style and fluency. I pride myself on always offering a friendly and reliable service, delivering projects on time and to budget. Please get in touch if you'd like to discuss a project, or to obtain a free quote.
                             </p> ";
 
 
-$lang['service1_head'] = 'Sweedish-English and English-Sweedish Translation';
+$lang['service1_head'] = 'Swedish-English and English-Swedish Translation';
 $lang['service1_body'] = 'With several years experience, specialising in media translations.';
 
 $lang['service2_head'] = 'Copy-editing and proofreading';
@@ -118,18 +95,13 @@ $lang['service4_body'] = 'I will meet your deadlines and deliver first-class cop
 
 // Clients page
 
-$lang['clients_head'] =    'Background and Clients';
+$lang['clients_head'] =    'About Me';
 $lang['clients_body'] =    "<p>
-                            Originally from Sweden, I have spent the best part of a decade living,
-                            working and studying in England. I am an accredited journalist with several
-                            years experience of editorial roles within print and online media organisations,
-                            including proofreading for Sweden's largest daily newspaper, Metro.
+                            Originally from Sweden, I have spent the best part of a decade living and studying in England. I am an accredited journalist with several years experience of editorial roles within print and online media, including working as a proofreader at Sweden's largest daily newspaper Metro.
                             </p> 
  
                             <p> 
-                            Previous clients range from housing associations and NGOs to newspapers, art curators
-                            and website owners. I also moonlight as a media analyst for a number of international
-                            brands, working to ensure they remain fully informed of their media visibility in Scandinavia.
+                            My clients range from housing associations and NGOs to newspapers and art curators. I also moonlight as a media analyst for a number of international organisations, ensuring that my clients remain fully informed regarding their media visibility in Scandinavia.
                             </p>
                             
                             <p>
@@ -138,7 +110,7 @@ $lang['clients_body'] =    "<p>
                             </p>
                             
                             <p>
-                            A full CV and links to samples of my work are available on request.
+                            My academic credentials include a BA in Journalism from London College of Communication, London University of the Arts (2006) and a Master in Modern and Contemporary Literature from Birbeck, University of London (2010).
                             </p>";
 
 $lang['testimonials_head'] = 'Testimonials';
@@ -156,10 +128,6 @@ $lang['contact_intro'] = "  <p>
                             I'm also on".' <a href="http://uk.linkedin.com/in/matildaueriksson">LinkedIn</a>'." - feel free to add me.
                             If you like, you can follow me on".' <a href="http://twitter.com/#!/MatildasCorner">Twitter</a>'." too.
                             If you'd prefer to talk via old-fashioned means you can call me on my UK mobile, which is +44 (0) 7783794944. 
-                            </p> 
- 
-                            <p> 
-                            Originally from Sweden, I now live and work from Brighton, England, and travel frequently to and from London and Stockholm.
                             </p> 
 
                             <p> 

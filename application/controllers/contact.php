@@ -46,7 +46,7 @@ class Contact extends MY_Controller {
 
                 $this->form_validation->set_error_delimiters('', '<br />');
 
-                if ($this->form_validation->run() == FALSE)
+                if ($this->form_validation->run() === false)
                 {
                     $data['message'] = '<span class="error">'.validation_errors().'</span>';
 
@@ -58,20 +58,19 @@ class Contact extends MY_Controller {
                 else
                 {
                     // Send the email
-
-                    $config = Array(
-                        'protocol' => 'smtp',
-                        'smtp_host' => 'mail.matildaeriksson.com', // change to 'localhost' when going live
-                        'smtp_user' => 'matilda@matildaeriksson.com',
-                        'smtp_pass' => 'sunshine77',
-                        'smtp_timeout' => 20,
-                        'newline'   => "\r\n"
-                    );
+                    $config['protocol']     ='smtp';  
+                    $config['smtp_host']    ='ssl://smtp.googlemail.com';  
+                    $config['smtp_port']    ='465';  
+                    $config['smtp_timeout'] ='30';  
+                    $config['smtp_user']    ='mail@matildaeriksson.com';  
+                    $config['smtp_pass']    ='81df3FD5A84Dbe4';  
+                    $config['charset']      ='utf-8';  
+                    $config['newline']      ="\r\n";  
 
                     $this->load->library('email', $config);
 
                     $this->email->from($this->input->post('email'), $this->input->post('name'));
-                    $this->email->to('matilda@matildaeriksson.com');
+                    $this->email->to('mail@matildaeriksson.com');
                     $this->email->subject('Wesite enquirey');
                     $this->email->message($this->input->post('message'));
 

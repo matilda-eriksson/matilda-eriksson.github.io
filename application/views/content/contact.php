@@ -12,6 +12,8 @@
               <h2><?php echo $this->lang->line('contact_message'); ?>:</h2>
               <textarea class="form-field" name="message" rows="50" cols="20" ><?php echo set_value('message'); ?></textarea>
 
+              <input type="hidden" name="<?php echo $this->security->get_csrf_token_name()?>" value="<?php echo $this->security->get_csrf_hash()?>" /> 
+
               <input class="submit-button" type="submit" name="submit" value="<?php echo $this->lang->line('contact_submit'); ?>" />
 
         </form>

@@ -32,20 +32,20 @@ $().ready(function() {
     var options = {
         target:     '#server-response',
         success:    function(response) {
-            // But was it a 'success'?'
-            if(response.indexOf("error") == -1) // no errors
-            {
-              $('#contact-form').clearForm();
-              $('.success').fadeOut(6000);    
+            if(response.indexOf("error") == -1) {
+                $('#contact-form').clearForm();
+                $('.success').fadeOut(6000);    
+            } else {
+                $('#server-response').append('<span class="error">'+response.error+'</span>');
             }
         },
         error: function() {            
             var error_msg = 'Error contacting server. Please try again later';        
-            if ( lang == 'se' )
-            {
+            if ( lang == 'se' ) {
                 error_msg = 'Serverfel. Var god försök igen senare';
-            }            
-            $('#server-response').append('<span class="error">'+error_msg+'</span>');
+            } else {           
+                $('#server-response').append('<span class="error">'+error_msg+'</span>');
+            }
         }
     };
 

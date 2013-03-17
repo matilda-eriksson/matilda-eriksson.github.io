@@ -14,6 +14,8 @@ class Work extends MY_Controller {
                             $this->lang->line('clients_keywords')
                             );
 
+            $this->load->helper('form');
+
             $this->template->build('content/work');
 	}
 }

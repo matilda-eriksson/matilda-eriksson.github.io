@@ -23,11 +23,11 @@
 <div id="footer-links">
     <a href="http://uk.linkedin.com/in/matildaueriksson">LinkedIn</a>
 
-    <a href="http://twitter.com/#!/MatildasCorner">Twitter</a>
+    <a href="http://twitter.com/MatildasCorner">Twitter</a>
 </div>
 
 <div id="author-info"> 
-    <a href="http://www.lushinteractive.co.uk">Design by Lush Interactive</a>
+    <a href="http://www.freddiefrantzen.com">Site by Freddie Frantzen</a>
 </div>
 
 <?php // echo $this->benchmark->elapsed_time();?>

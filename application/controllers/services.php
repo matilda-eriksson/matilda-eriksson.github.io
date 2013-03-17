@@ -14,6 +14,8 @@ class Services extends MY_Controller {
                             $this->lang->line('services_keywords')
                             );
 
+            $this->load->helper('form');
+
             $this->template->build('content/services');
 	}
 }

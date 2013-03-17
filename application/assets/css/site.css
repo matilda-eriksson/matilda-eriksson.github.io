@@ -13,10 +13,10 @@
 
 @font-face {
     font-family: 'ChunkFiveRegular';
-    src: url('../fonts/ChunkFive/Chunkfive-webfont.eot');
-    src: url('../fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
-         url('../fonts/ChunkFive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    src: url('../fonts/ChunkFive/chunkfive-normal-webfont.eot');
+    src: url('../fonts/ChunkFive/chunkfive-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ChunkFive/chunkfive-normal-webfont.ttf') format('truetype'),
+         url('../fonts/ChunkFive/chunkfive-normal-webfont.svg#ChunkFiveRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -113,12 +113,10 @@ footer, header, hgroup, menu, nav, section {
 -----------------------------------------------------------------------------*/
 
 html {
-
     background: #FFFFFF;
 }
 
 body {
-    
     color: #666;
     height: 1000px;
     font-family: NobileRegular;
@@ -131,35 +129,25 @@ body {
 }
 
 p {
-   
     margin-bottom: 18px; /*12px*/
-    
 }
 
 em { 
-    
     font-style: italic;
-
 }
 
 strong {
-
     font-weight: bold;
     font-family: NobileBoldItalic;
-
 }
 
 strong em {
-    
     font-weight: bold;
     font-style: italic;
-
 }
 
 span#server-response {
-
     float: left;
-
 }
 
 .success {
@@ -198,11 +186,9 @@ a:link,
 a:active,
 a:visited,
 a:hover {
-
     text-decoration: none;
     outline: none;
     color: #333;
-
 }
 
 
@@ -217,17 +203,18 @@ a:hover {
 
 div#page-wrap {
     width: 960px;
+    margin: 0 auto;
 }
 
 #content-mask {
-        width: 960px;
+    width: 960px;
 	height: 450px;
 	overflow: hidden;
 }
 
 #content-wrap {
-        width: 5000px;
-        height: 450px;
+    width: 5000px;
+    height: 450px;
 }
 
 #home-pane,
@@ -271,7 +258,6 @@ div#logo {
     float: left;
     font-family: MomsTypewriterRegular, SpecialEliteRegular, NobileBold;
     margin-left: 30px;
-    
     background-image: url('../images/matildas-translation-services-logo.png');
     height: 35px;
     width: 183px;
@@ -285,14 +271,12 @@ div#logo span {
 }
 
 div#logo span#logo-line1 {
-
     color: #D36244; /*#EB1E1E;*/
     font-size: 18px;
     display: none;
 }
 
 div#logo span#logo-line2 {
-
     color: #333;
     font-size: 16px;
     padding-left: 2px;
@@ -307,7 +291,6 @@ div#logo span#logo-line2 {
 div#nav-wrap a:link,
 div#nav-wrap a:active,
 div#nav-wrap a:visited {
-
     color: #333;
 }
 
@@ -427,7 +410,6 @@ div#author-info {
 -----------------------------------------------------------------------------*/
 
 ul#services-list {
-
     1list-style: square;
     1list-style-position: inside;
 }
@@ -445,7 +427,6 @@ ul#services-list span {
 -----------------------------------------------------------------------------*/
 
 .form-field {
-
     background-color: #EAeAEA;
     border: 2px solid #BABABA;
     display: block;

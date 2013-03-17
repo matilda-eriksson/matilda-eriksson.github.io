@@ -59,9 +59,8 @@ $lang['quote1_body'] = 'Donec quis odio sit amet nulla luctus pharetra. Quisque 
                         eget. Fusce lorem justo, posuere a gravida eget.';
 $lang['quote1_source'] = 'Some Person, Some Company';
 
-$lang['quote2_body'] = 'Nulla at enim cursus tortor viverra facilisis at nec dui. Etiam 
-                        ac nibh felis. Cum sociis natoque penatibus et magni.';
-$lang['quote2_source'] = 'Some Person, Some Company';
+$lang['quote2_body'] = "&quot;Matilda translated the text quickly, with ease and to a high standard. She has demonstrated that she has an excellent command of Swedish and English, and she did a great job understanding and interpreting the presentation's message.&quot;";
+$lang['quote2_source'] = 'Margareta Fintling, Social Consultant, Swedish Public Employment Service';
 
 $lang['quote3_body'] = 'Etiam ac 
                         nibh felis. Cum sociis natoque penatibus et magnis dis parturient montes, 

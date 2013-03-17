@@ -15,7 +15,7 @@
 </div>
 
 <div id="lang-link-wrap">
-    <a id="lang-link" href="<?php echo base_url()?>se/">svenska por</a>
+    <a id="lang-link" href="<?php echo base_url()?>se/">svenska</a>
 </div>
 
 <?php } ?>

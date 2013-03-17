@@ -29,5 +29,3 @@
 <div id="author-info"> 
     <a href="http://www.freddiefrantzen.com">Site by Freddie Frantzen</a>
 </div>
-
-<?php // echo $this->benchmark->elapsed_time();?>

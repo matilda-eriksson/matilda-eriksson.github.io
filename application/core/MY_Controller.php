@@ -41,17 +41,14 @@ function __construct()
         $language_abbr = $this->config->item('language_abbr');
        
         $this->lang->load('content', $languages[$language_abbr]);
-
-        //$this->template->append_metadata('<meta property="og:image" content="'.base_url().'uploads/img/mrs_logo_small.jpg" />');
-
     }
 
 
     protected function _set_meta($title, $desc, $keywords)
     {
         $this->template->append_metadata('<title>Matilda Eriksson | '.$title.'</title>');
+
         $this->template->append_metadata('<meta name="description" content="'.$desc.'" />');
-        $this->template->append_metadata('<meta name="keywords" content="'.$keywords.'" />');
     }
 
 }

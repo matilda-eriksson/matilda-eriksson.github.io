@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
 
     <head>       
         
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8">
         <meta name="robots" content="all" />
-	<meta name="author" content="Lush Interactive, freddie(at)lushinteractive(dot)co(dot)uk" />
-	<meta name="copyright" content="(c) 2011 Lush Interactive" />
+        <meta name="author" content="freddie@freddiefrantzen.com" />
+        <meta name="copyright" content="(c) 2013 Freddie Frantzen" />
         
         <?php echo $template['metadata']; ?>
 
@@ -16,16 +16,9 @@
         <meta property="og:image" content="<?php echo base_url(); ?>application/images/matildas-translation-services-logo.png"/>
         <meta property="og:site_name" content="www.matildaerikson.com"/>
         <meta property="fb:admins" content=""/>
-        <meta property="og:description"
-              content="Professional translator, proofreader and media analyst
-                        specialising in high quality Swedish-English and
-                        English-Swedish translations. Competitively priced. ."/>
+        <meta property="og:description" content="Professional translator, proofreader and media analyst specialising in high quality Swedish-English and English-Swedish translations."/>
 
         <?php $this->carabiner->display('css'); ?>
-        
-        <!--[if IE 6]>
-                <link rel="stylesheet" type="text/css" href="<?php echo base_url().'application/assets/css/' ?>ie6-only.css" />
-        <![endif]-->
         
     </head>
 
@@ -76,7 +69,7 @@
         <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
         
         <!-- BEGIN Google Analytics -->
-
+<!--
         <script type="text/javascript">
 
           var _gaq = _gaq || [];
@@ -90,7 +83,7 @@
           })();
 
         </script>
-        
+   -->     
         <!-- END Google Analytics -->
 
     </body>

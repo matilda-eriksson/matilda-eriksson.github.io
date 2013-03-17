@@ -48,6 +48,21 @@ $config['title_separator'] = ' | ';
 | Theme
 |--------------------------------------------------------------------------
 |
+| Which layout file should be used? When combined with theme it will be a layout file in that theme
+|
+| Change to 'main' to get /application/views/main.php
+|
+|   Default: FALSE
+|
+*/
+
+$config['layout'] = FALSE;
+
+/*
+|--------------------------------------------------------------------------
+| Theme
+|--------------------------------------------------------------------------
+|
 | Which theme to use by default?
 |
 | Can be overriden with $this->template->set_theme('foo');
@@ -65,10 +80,10 @@ $config['theme'] = '';
 |
 | Where should we expect to see themes?
 |
-|	Default: array(APPPATH.'themes/' => '../themes/')
+|   Default: array(APPPATH.'themes/' => '../themes/')
 |
 */
 
 $config['theme_locations'] = array(
-	APPPATH.'site/'
+    APPPATH.'themes/'
 );

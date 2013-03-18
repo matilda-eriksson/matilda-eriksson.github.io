@@ -54,7 +54,7 @@ $lang['site_by'] = 'Design and Code';
 // Quotes
 
 $lang['quote1_body'] = '&quot;Det var en fröjd att arbeta med dig i det här projektet. Du levererade som du utlovat, tog ansvar, ifrågasatte det som var oklart, skötte kontakter, var anträffbar och framför allt hanterade du det engelska språket enkelt och elegant. Självklart rekommenderar jag dig.&quot;';
-$lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, projektledare för det internationella konstprojektet Sharing Waters, Stockholm/Istanbul';
+$lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, projektledare för det internationella konstprojektet Sharing Waters';
 
 $lang['quote2_body'] = 'Matilda visade goda kunskaper i det svenska och engelska språket och har förstått och på ett mycket bra sätt tolkat innehållet av budskapet i presentationen. Uppgifterna har hon utfört mycket bra, hon har snabbt, enkelt och med en god kvalité gjort översättningarna. Jag vill därför varmt rekommendera henne till liknande uppgifter.';
 $lang['quote2_source'] = 'Margareta Fintling, socialkonsulent, Arbetsförmedlingen';

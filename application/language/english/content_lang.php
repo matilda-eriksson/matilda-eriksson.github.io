@@ -54,10 +54,8 @@ $lang['site_by'] = 'Design and Code';
 
 // Quotes
 
-$lang['quote1_body'] = '&quot;Donec quis odio sit amet nulla luctus pharetra. Quisque ultrices 
-                        gravida velit sed tincidunt. Fusce lorem justo, posuere a gravida 
-                        eget. Fusce lorem justo, posuere a gravida eget.&quot;';
-$lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, curator of the international art exhibition <em>Sharing Waters</em>, Stockholm/Istanbul';
+$lang['quote1_body'] = '&quot;It was a pleasure working with you during this project. You delivered as promised, demonstrated responsibility, questioned inconsistencies, liaised with project participants, kept in touch and above all you handled the English language elegantly and with ease.&quot;';
+$lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, curator of the international art exhibition <em>Sharing Waters</em>';
 
 $lang['quote2_body'] = "&quot;Matilda translated the text quickly, with ease and to a high standard. She has demonstrated that she has an excellent command of Swedish and English, and she did a great job understanding and interpreting the presentation's message.&quot;";
 $lang['quote2_source'] = 'Margareta Fintling, Social Consultant, Swedish Public Employment Service';

@@ -71,22 +71,27 @@ $lang['home_intro'] =      "Hello! Welcome to Matilda Eriksson Translation Servi
 
 $lang['services_byline'] = 'High quality translations';
 $lang['services_intro'] = "<p>
-                            I can provide you with fast and accurate translations from Swedish to English and English to Swedish. I have worked on a wide variety of texts and feel confident translating technically demanding texts. I also assist clients with proof-editing of English and Swedish copy. My areas of specialisation include journalism, catalogues, technical documents and the arts.
+                            I offer fast and accurate translations from Swedish to English and English to Swedish. I have worked on a wide variety of texts and feel confident translating technically demanding texts. I also assist clients with proof-editing of English and Swedish copy. My areas of specialisation include journalism, catalogues, technical documents and the arts.
                             </p> 
 
                             <p> 
+                            My clients include NGOs, public bodies, media agencies and art curators. I also moonlight as a media analyst for a number of international organisations, ensuring that clients remain fully informed regarding their media visibility in Scandinavia.
+                            </p> 
+
+                            <p>
                             You can rest assured that I will always stay true to your original text, without compromising on style and fluency. I pride myself on always offering a friendly and reliable service, delivering projects on time and to budget. Please get in touch if you'd like to discuss a project, or to obtain a free quote.
-                            </p> ";
+                            </p>
+                            ";
 
 
-$lang['service1_head'] = 'Swedish-English and English-Swedish Translation';
-$lang['service1_body'] = 'With several years experience, specialising in media translations.';
+$lang['service1_head'] = 'Translation';
+$lang['service1_body'] = 'Bi-lingual proficiency translating Swedish to English and English to Swedish. Seamless translations that are fluent and true to the source without compromising on style.';
 
-$lang['service2_head'] = 'Copy-editing and proofreading';
-$lang['service2_body'] = 'Swedish and English copy-editing and proofreading services also available.';
+$lang['service2_head'] = 'Editing and proofreading';
+$lang['service2_body'] = 'Long-standing experience of editing and proofreading both Swedish and English copy. ';
 
 $lang['service3_head'] = 'Media Analysis';
-$lang['service3_body'] = 'Experience analysing online media for internationally renowned brands.';
+$lang['service3_body'] = 'Experience analysing online and print media for internationally renowned brands.';
 
 $lang['service4_head'] = 'Fast and efficient';
 $lang['service4_body'] = 'I will meet your deadlines and deliver first-class copy.';
@@ -95,21 +100,13 @@ $lang['service4_body'] = 'I will meet your deadlines and deliver first-class cop
 
 $lang['clients_head'] =    'About Me';
 $lang['clients_body'] =    "<p>
-                            Originally from Sweden, I have spent the best part of a decade living and studying in England. I am an accredited journalist with several years experience of editorial roles within print and online media, including working as a proofreader at Sweden's largest daily newspaper Metro.
+                            Originally from Sweden, I have spent the best part of a decade studying and working in the UK. I'm currently based in Brighton which became my adopted hometown in 2010. I am an accredited journalist with several years experience of editorial roles within the media industry, both in the UK and in Sweden, including working as a proofreader at Sweden's largest daily newspaper Metro. 
                             </p> 
  
                             <p> 
-                            My clients range from housing associations and NGOs to newspapers and art curators. I also moonlight as a media analyst for a number of international organisations, ensuring that my clients remain fully informed regarding their media visibility in Scandinavia.
-                            </p>
-                            
-                            <p>
-                            My academic credentials include a BA in Journalism (London College of Communications)
-                            and a Masters in Modern and Contemporary Literature (University of London).
-                            </p>
-                            
-                            <p>
                             My academic credentials include a BA in Journalism from London College of Communication, London University of the Arts (2006) and a Master in Modern and Contemporary Literature from Birbeck, University of London (2010).
-                            </p>";
+                            </p>
+                            ";
 
 $lang['testimonials_head'] = 'Testimonials';
 

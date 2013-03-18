@@ -68,18 +68,6 @@
 }
 
 
-@font-face {
-    font-family: 'MomsTypewriterRegular';
-    src: url('../fonts/Moms/Moms_typewriter-webfont.eot');
-    src: url('../fonts/Moms/Moms_typewriter-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Moms/Moms_typewriter-webfont.ttf') format('truetype'),
-         url('../fonts/Moms/Moms_typewriter-webfont.svg#MomsTypewriterRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
 /*  =Reset
 -----------------------------------------------------------------------------*/
 
@@ -106,8 +94,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-/* colors #333, #535353, #666, #828282 */
-
 
 /* =Global Declarations
 -----------------------------------------------------------------------------*/
@@ -123,8 +109,6 @@ body {
     font-size: 12px;
     line-height: 18px;
     padding: 72px;
-    /* for debugging */
-    1background: url('../images/gridbg.gif');
     background-repeat: repeat;
 }
 
@@ -162,7 +146,7 @@ span#server-response {
 -----------------------------------------------------------------------------*/
 
 h1 {
-    color: #D36244; /*#44863E #D36244; #00ac71*/
+    color: #D36244;
     font-family: ChunkFiveRegular;
     font-size: 36px;
     line-height: 36px;
@@ -172,10 +156,6 @@ h1 {
 h2 { /* Form field headings */
     padding-left: 5px;
     padding-bottom: 1px;
-}
-
-#services-brief h1 {
-    1margin-bottom: 0px;
 }
 
 
@@ -228,8 +208,6 @@ div#page-wrap {
     float: left;
 }
 
-
-
 div#nav-wrap {
     border-bottom: 6px solid #666;
     padding-bottom: 12px;
@@ -245,7 +223,6 @@ div.left-col {
     margin-bottom: 36px;
 }
 
-
 div.right-col {
     float: left;
     width: 320px;
@@ -258,31 +235,12 @@ div.right-col {
 
 div#logo {
     float: left;
-    font-family: MomsTypewriterRegular, SpecialEliteRegular, NobileBold;
     margin-left: 30px;
     background-image: url('../images/matildas-translation-services-logo.png');
     height: 35px;
     width: 183px;
     background-repeat: no-repeat;
     margin-top: -1px;
-
-}
-
-div#logo span {
-    display: block;
-}
-
-div#logo span#logo-line1 {
-    color: #D36244; /*#EB1E1E;*/
-    font-size: 18px;
-    display: none;
-}
-
-div#logo span#logo-line2 {
-    color: #333;
-    font-size: 16px;
-    padding-left: 2px;
-    display: none;
 }
 
 
@@ -411,11 +369,6 @@ div#author-info {
 /* =Lists
 -----------------------------------------------------------------------------*/
 
-ul#services-list {
-    1list-style: square;
-    1list-style-position: inside;
-}
-
 ul#services-list li {
     margin-bottom: 18px;
 }
@@ -475,9 +428,6 @@ input.submit-button:hover, input.submit-button:focus {
     border: 1px solid #ACABAB;
     outline: none;  
 }
-
-
-
 
 /*Active State - only works if using [element name]/[class] selector' */
 input[type="submit"].submit-button:active {

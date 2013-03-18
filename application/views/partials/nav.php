@@ -1,6 +1,4 @@
 <div id="logo">
-    <span id="logo-line1">Matilda Eriksson</span>
-    <span id="logo-line2">Language Services</span>
 </div>
 
 <ul id="top-nav">

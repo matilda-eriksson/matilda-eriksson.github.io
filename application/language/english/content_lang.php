@@ -65,7 +65,7 @@ $lang['quote3_source'] = 'Simon Arnold, Greenfields Partnership, London';
 
 // Home page
 
-$lang['home_intro'] =      "Hello! Welcome to Matilda Eriksson Translation Services. I'm a translator and editing professional offering quality translation and editing services, specialising in Swedish-English and English-Swedish translations and proof-reading. Whether you need help with translation, editing or proof-reading I am here to make your text shine.";
+$lang['home_intro'] =      "Hello! Welcome to Matilda Eriksson Language Services. I'm a translator and editing professional offering quality translation and editing services, specialising in Swedish-English and English-Swedish translations and proof-reading. Whether you need help with translation, editing or proof-reading I am here to make your text shine.";
 
 // Services page
 

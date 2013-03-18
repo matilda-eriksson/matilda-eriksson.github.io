@@ -1,11 +1,17 @@
 Deployment Instructions
 ===============
 
-Remember to commit any changes / push to renores.
+- Remember to commit any changes / push to remotes.
+
+- There is only the `master` branch
+
+- A production version of index.php will automatically be copied into the build dir, from /deploy/files
+
+- The .htaccess file is same (and gets used) for both dev and prod
 
 Deploy using Phing.
 
     cd /path/to/code/repo
     phing deploy
 
-You'll then be prompted to choose which server to deploy to. You might need to run `a2ensite` on the remote server if the target server is anything other than production.
+You'll then be prompted to choose which server to deploy to. There is no staging server, only production.

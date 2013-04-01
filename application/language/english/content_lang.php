@@ -10,8 +10,7 @@ $lang = array();
 
 // Meta
 
-$lang['home_desc'] =    'Professional translator, proofreader and media analyst specialising in high quality
-                          Swedish-English and English-Swedish translations. Competitively priced.';
+$lang['home_desc'] =    'Professional translator and proofreader specialising in high quality Swedish to English and English to Swedish translations.';
 
 $lang['home_keywords'] =   'swedish to english,
                             english to swedish,
@@ -60,18 +59,18 @@ $lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, curator of the international 
 $lang['quote2_body'] = "&quot;Matilda translated the text quickly, with ease and to a high standard. She has demonstrated that she has an excellent command of Swedish and English, and she did a great job understanding and interpreting the presentation's message.&quot;";
 $lang['quote2_source'] = 'Margareta Fintling, Social Consultant, Swedish Public Employment Service';
 
-$lang['quote3_body'] = '&quot;Matilda delivered exceptional results on time and to budget. Her work was of the highest standard. We would certainly hire her again in the blink of an eye.&quot;';
-$lang['quote3_source'] = 'Simon Arnold, Greenfields Partnership, London';
+$lang['quote3_body'] = '&quot;Matilda has consistently delivered excellent work for some of the Gorkana Group’s largest clients across several industries, including the tech, financial and retail sectors. Her translation from Danish, Norwegian and Swedish sources into English is superb with a very keen attention to detail.&quot;';
+$lang['quote3_source'] = 'Jan Arnold, Senior Head Analyst, Gorkana Group';
 
 // Home page
 
-$lang['home_intro'] =      "Hello! Welcome to Matilda Eriksson Language Services. I'm a translator and editing professional offering quality translation and editing services, specialising in Swedish-English and English-Swedish translations and proof-reading. Whether you need help with translation, editing or proof-reading I am here to make your text shine.";
+$lang['home_intro'] =      "Hello! Welcome to Matilda Eriksson Language Services. I'm a translator and editing professional offering high-quality Swedish to English and English to Swedish translation and proofreading services. If you have a project you'd like to discuss please get in touch and I'll get right back to you.";
 
 // Services page
 
 $lang['services_byline'] = 'High quality translations';
 $lang['services_intro'] = "<p>
-                            I offer fast and accurate translations from Swedish to English and English to Swedish. I have worked on a wide variety of texts and feel confident translating technically demanding texts. I also assist clients with proof-editing of English and Swedish copy. My areas of specialisation include journalism, catalogues, technical documents and the arts.
+                            I offer fast and accurate translations from Swedish to English and English to Swedish as well as Danish/Norwegian into English. I have worked on a wide variety of texts and feel confident translating technically demanding texts. I also assist clients with proof-editing of English and Swedish copy. My areas of specialisation include journalism, catalogues, technical documents and the arts.
                             </p> 
 
                             <p> 
@@ -104,7 +103,7 @@ $lang['clients_body'] =    "<p>
                             </p> 
  
                             <p> 
-                            My academic credentials include a BA in Journalism from London College of Communication, London University of the Arts (2006) and a Master in Modern and Contemporary Literature from Birbeck, University of London (2010).
+                            My academic credentials include a BA in Journalism from London College of Communication, London University of the Arts (2006) and a Masters in Modern and Contemporary Literature from Birkbeck, University of London (2010).
                             </p>
                             ";
 

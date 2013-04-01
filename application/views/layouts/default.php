@@ -81,7 +81,7 @@
         <!-- END Google +1 -->
 
         <!-- BEGIN Google Analytics -->
-<!--
+
         <script type="text/javascript">
 
           var _gaq = _gaq || [];
@@ -95,7 +95,7 @@
           })();
 
         </script>
-   -->     
+            
         <!-- END Google Analytics -->
 
     </body>

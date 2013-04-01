@@ -10,7 +10,7 @@ $lang = array();
 
 // Meta
 
-$lang['home_desc'] = 'Professional translator, proofreader and media analyst specialising in high quality Swedish-English and English-Swedish translations. Competitively priced.';
+$lang['home_desc'] = 'Professional translator and proofreader specialising in high quality Swedish to English and English to Swedish translations.';
 
 $lang['home_keywords'] =   'swedish to english,
                             english to swedish,
@@ -59,18 +59,18 @@ $lang['quote1_source'] = 'Ulla Kastrup Sjunnesson, projektledare för det intern
 $lang['quote2_body'] = 'Matilda visade goda kunskaper i det svenska och engelska språket och har förstått och på ett mycket bra sätt tolkat innehållet av budskapet i presentationen. Uppgifterna har hon utfört mycket bra, hon har snabbt, enkelt och med en god kvalitet gjort översättningarna. Jag vill därför varmt rekommendera henne till liknande uppgifter.';
 $lang['quote2_source'] = 'Margareta Fintling, socialkonsulent, Arbetsförmedlingen';
 
-$lang['quote3_body'] = '"Matilda levererade exceptionellt goda resultat på utlovad tid och inom vår budget. Hennes översättning var av högsta kvalitet. Greenfields Partnerships skulle gladeligen anlita henne igen.”';
-$lang['quote3_source'] = 'Simon Arnold, Greenfields Partnerships';
+$lang['quote3_body'] = 'Matilda har genomgående levererat utmärkta resultat till några av Gorkanas största klienter inom en rad olika områden, inklusive teknologi, finans och handel. Hennes översättningar från danska, norska och svenska till engelska är mycket bra och påvisar en hög grad av noggrannhet.';
+$lang['quote3_source'] = 'Jan Arnold, Gorkana Group';
 
 // Home page
 
-$lang['home_intro'] =      "Välkommen till Matilda Eriksson Translation Services. Hit kan du vända dig om du behöver hjälp med textredigering, språkgranskning och översättning från svenska till engelska och från engelska till svenska. ";
+$lang['home_intro'] =      "Välkommen till Matilda Eriksson Language Services. Hit kan du vända dig om du behöver hjälp med textredigering, språkgranskning och översättning från svenska till engelska och från engelska till svenska. ";
 
 // Services page
 
-$lang['services_byline'] = 'Språkkänslig och högkvalitativ översättning';
+$lang['services_byline'] = 'Professionell och språkkänslig översättning';
 $lang['services_intro'] = "<p>
-                            Jag översätter från svenska till engelska och från engelska till svenska men erbjuder även språkgranskningstjänster till uppdragsgivare som föredrar att själv skriva texten på målspråket. Med min hjälp kan du vara säker på att grammatiken håller, samt undvika att stavfel eller ’svengelska’ fraser slinker med. 
+                            Jag översätter från svenska till engelska och från engelska till svenska men erbjuder även språkgranskningstjänster till uppdragsgivare som föredrar att själv skriva texten på målspråket. Med min hjälp kan du vara säker på att grammatiken håller och undviker att stavfel eller 'svengelska' fraser slinker med. 
                             </p>
 
                             <p>
@@ -85,8 +85,8 @@ $lang['service1_body'] = 'Professionell högkvalitativ översättning';
 $lang['service2_head'] = 'Språkgranskning och korrekturläsning';
 $lang['service2_body'] = 'Mångårig erfarenhet av språkgranskning, korrekturläsning och redigering';
 
-$lang['service3_head'] = 'Kvalitetsgranskning och lokalisation';
-$lang['service3_body'] = 'Har du redan anlitat en översättare men är osäker på om kvaliteten i texten håller? Min bakgrund inom språkgranskning garanterar en professionell utvärdering av översättning och lokalisation';
+$lang['service3_head'] = 'Kvalitetsgranskning';
+$lang['service3_body'] = 'Har du redan anlitat en översättare men är osäker på om kvaliteten i texten håller? Min bakgrund inom språkgranskning garanterar en professionell utvärdering av malsprakstexten';
 
 $lang['service4_head'] = 'Snabb och effektiv';
 $lang['service4_body'] = 'Mina klienter kan alltid lita på ett väl utfört arbete som levereras på eller innan utsatt tid.';
@@ -95,7 +95,7 @@ $lang['service4_body'] = 'Mina klienter kan alltid lita på ett väl utfört arb
 
 $lang['clients_head'] =    'Om mig';
 $lang['clients_body'] =    "<p>
-                            Jag är född och uppvuxen i Sverige men har studerat och arbetat i England under större delen av mitt vuxna liv. Sedan ett par år tillbaks bor och verkar jag på Englands sydkust, närmare bestämt Brighton. Som utbildad journalist och med många års erfarenhet inom språkgranskning och redigering är din text i säkra händer vare sig det gäller korrekturläsning eller översättning. Jag har erfarenhet inom webbmedia och papperstidningar, bland annat som korrekturläsare på en av Sveriges största morgontidningar, Metro.
+                            Jag är född och uppvuxen i Sverige men har studerat och arbetat i England under större delen av mitt vuxna liv. Sedan ett par år tillbaks bor och verkar jag på Englands sydkust, närmare bestämt Brighton. Som utbildad journalist och med många års erfarenhet inom språkgranskning och redigering är din text i säkra händer vare sig det gäller korrekturläsning eller översättning. Jag har erfarenhet inom webbmedia och tidningar, bland annat som korrekturläsare på en av Sveriges största morgontidningar, Metro.
                             </p> 
  
                             <p> 
@@ -121,6 +121,10 @@ $lang['contact_intro'] = "  <p>
                          
 
                             <p> 
+                            Vänliga hälsningar
+                            </p>
+
+                            <p>
                             / Matilda
                             </p> ";
 

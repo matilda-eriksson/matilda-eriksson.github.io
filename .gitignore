@@ -1,10 +1,2 @@
-*/logs/log-*.php
-*/logs/!index.html
-*/cache/*
-*/cache/!index.html
-*/assetcache/*
-*/assetcache/!index.html
-*/assetcache/!.htaccess
-.sublime
-deploy
-build.xml
+.idea
+.DS_Store
